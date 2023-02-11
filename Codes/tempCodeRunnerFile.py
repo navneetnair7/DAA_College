@@ -1,2 +1,1 @@
-print('\nFor the function e ^ n- \n')
-eRaisedTo()
+print("The sorted array is: ", a)

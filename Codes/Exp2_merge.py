@@ -30,7 +30,8 @@ def mergeSort(a, low, high):
         mergeSort(a, low, mid)
         mergeSort(a, mid + 1, high)
         merge(a, low, mid, high)
-
+    print("The sorted array is: ", a)
+    
 a = []
 for i in range(0, 10):
     a.append(50 + 51 * i)
