@@ -11,5 +11,6 @@ def bubble(a, n):
     bubble(a, n - 1)
 
 a = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+print("Input array: ", a)
 bubble(a, 10)
-print(a)
+print("Sorted array: ", a)
